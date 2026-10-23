@@ -359,5 +359,3 @@ def test_large_deterministic_stress():
         assert h.find(k) == v
 
     assert len(h) == 100
-    
-pytest.main(["-v", "-s", "test_CuckooHash.py"])   
